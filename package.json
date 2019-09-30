@@ -1,0 +1,26 @@
+{
+  "name": "gulu",
+  "version": "0.0.1",
+  "description": "vue study",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asdasd111112999/vue-gulu.git"
+  },
+  "keywords": [
+    "vue",
+    "ui"
+  ],
+  "author": "xiaowu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/asdasd111112999/vue-gulu/issues"
+  },
+  "homepage": "https://github.com/asdasd111112999/vue-gulu#readme",
+  "dependencies": {
+    "vue": "^2.6.10"
+  }
+}
