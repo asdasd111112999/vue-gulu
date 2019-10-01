@@ -6,7 +6,15 @@
 
 <script>
     export default {
-        name: "button-group"
+        name: "button-group",
+        mounted() {
+            for(let node of this.$el.children){
+                let name = node.nodeName.toLocaleLowerCase()
+                if(name !== 'button'){
+                    console.warn(`g-button-group中只能写g-button，但你写了${name}`)
+                }
+            }
+        }
     }
 </script>
 
