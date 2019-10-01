@@ -10,10 +10,13 @@
 </head>
 <body>
 <div id="app">
-    <g-button icon="setting" position="left">
+    <g-button :loading="loading1" @click="loading1 = !loading1">
+        设置1
+    </g-button>
+    <g-button icon="setting" position="left" :loading="loading2" @click="loading2 = !loading2">
         设置
     </g-button>
-    <g-button icon="setting" position="right">
+    <g-button icon="setting" position="right" :loading="loading3" @click="loading3 = !loading3">
         设置
     </g-button>
 </div>
